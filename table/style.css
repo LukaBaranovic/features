@@ -4,6 +4,21 @@
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  background: #fafafa;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  width: 50%;
+}
+
 .content-table {
   border-collapse: collapse;
   margin: 25px 0;
